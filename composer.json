@@ -1,0 +1,17 @@
+{
+	"name": "fmccoy/anthembootstrap",
+	"type": "helper",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/fmccoy/wp-bootstrap-navwalker"
+		}
+	],
+	"require": {
+	},
+	"autoload": {
+		"psr-0": {
+			"Anthem": "inc/"
+		}
+	}
+}
